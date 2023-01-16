@@ -1,0 +1,45 @@
+{
+    "Logowanie": [
+    {
+        "login": "Ala",
+        "haslo": 123,
+        "email": "alamakota@gmail.com",
+        "role": "student",
+        "imię": "Alicja",
+        "nazwisko": "Kot"
+    },
+    {
+        "login": "Admin",
+        "haslo": "Admin123",
+        "email": "admin@domena.com",
+        "role": "admin",
+        "imię": "Paweł",
+        "nazwisko": "Chleb"
+    },
+    {
+        "login": "Kamilek",
+        "haslo": "Kamil422#",
+        "email": "kamil726@gmail.com",
+        "role": "prezes",
+        "imię": "Kamil",
+        "nazwisko": "Nowakowski"
+    },
+    {
+        "login": "Anna",
+        "haslo": "aniafrania123",
+        "email": "anna@szkola.pl",
+        "role": "nauczyciel",
+        "imię": "Anna",
+        "nazwisko": "Śliwińska"
+    },
+    {
+        "login": "Bernetix",
+        "haslo": "Bernetix1233",
+        "email": "bernetix@gmail.com",
+        "role": "administrator",
+        "imię": "Michał",
+        "nazwisko": "Cygan"
+    }
+    ]
+}
+    

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style-testy.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Code-Tech - testy</title>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"
+    integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4="
+    crossorigin="anonymous">
+    </script>
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut(1000);
+          
+        });
+    </script>
+        <script type="text/javascript" src="test_script.js"></script>
+
+</head>
+<body>
+    <div id="topper">
+        <div id="szkola">
+            Zacznijmy porgramować wspólnie!
+        </div>
+        <div id="kontakt">
+            Telefon: 123 456 789 | E-mail: 36365@student.anstar.edu.pl
+        </div>
+    </div>
+    <div id="logo">
+        <div id="logotype">
+            <img src="logo.png" alt="logo" height="100%">
+        </div>
+        <div id="descr">
+            <div class="tekst_descr">
+            <h1>WITAMY W CODE-TECH</h1>
+            <h3>
+                Od wielu lat doskształcamy, szkolimy i inspirujemy młodych oraz doświadczonych programistów. 
+                Jesteśmy jedyną w swoim rodzaju szkołą tworzenia stron internetowych.
+            </h3>
+            <h3>
+                W naszym asortymencie znajdziesz zarówno kursy dla początkujących jak i dla tych bardziej zaawansowanych. 
+                Wystarczy że wybierzesz odpowiednie szkolenie i zanurzysz się w szerokim świecie programisty.
+            </h3>
+            <h3>
+                CZEKAMY NA CIEBIE!
+            </h3>
+            </div>
+        </div>
+    </div>
+    <div id="menu">
+        <a href="index.html">
+            <div class="menuoption">Strona główna</div>
+        </a>
+        <a href="kursy.html">
+            <div class="menuoption">Kursy</div>
+        </a>
+        <a href="testy.html">
+            <div class="menuoption">Testy</div>
+        </a>
+        <a href="self.html">
+            <div class="menuoption">O mnie</div>
+        </a>    
+        
+    </div>
+    <div id="block">
+        <div class="tekst">
+            Sprawdź swoją wiedzę z <b>JSON</b>!
+        </div>
+        <div class="form">
+
+            <ol>
+                <li>Do czego słuzy język JSON?</li>
+                    <input type="radio" id="p1_a" name="pyt1">A) Zmiany wyglądu tekstu<br>
+                    <input type="radio" id="p1_b" name="pyt1">B) Transportowania i przechowywania danych<br>
+                    <input type="radio" id="p1_c" name="pyt1">C) Ingerowania w strukturę strony<br>
+
+                <br><li>W jaki sposób prezentowanie są dane w JSON?</li>
+                    <input type="radio" id="p2_a" name="pyt2">A) klucz:wartosc<br>
+                    <input type="radio" id="p2_b" name="pyt2">B) wartosc:klucz<br>
+                    <input type="radio" id="p2_c" name="pyt2">C) wartosc:wartosc<br>
+
+                <br><li>W języku JSON poszczególne dane oddzielane są:</li>
+                    <input type="radio" id="p3_a" name="pyt3">A) średnikami<br>
+                    <input type="radio" id="p3_b" name="pyt3">B) podkreśleniami<br>
+                    <input type="radio" id="p3_c" name="pyt3">C) przecinakmi<br>
+
+                <br><li>Jakie jest rozszerzenie pliku napisanego w języku JSON?</li>
+                    <input type="radio" id="p4_a" name="pyt4">A) .json<br>
+                    <input type="radio" id="p4_b" name="pyt4">B) .xml<br>
+                    <input type="radio" id="p4_c" name="pyt4">C) .html<br>
+
+                <br><li>Tablice reprezentuje: </li>
+                    <input type="radio" id="p5_a" name="pyt5">A) nawias ostry<br>
+                    <input type="radio" id="p5_b" name="pyt5">B) nawias kwadratowy<br>
+                    <input type="radio" id="p5_c" name="pyt5">C) nawias okrągły<br>
+
+            </ol>
+            <button type="submit" id="sprawdz" onclick="testjson()">Sprawdź odopowiedzi</button>
+            <button type="reset" id="reset">Zacznij od nowa</button>
+
+        </div>
+        <div class="akapit">
+            Zdobyto <span id="test_result"></span> /5 punktów!
+        </div>
+    
+    </div>
+    <div id="footer">
+        <p>&copy COPYRIGHT, wszelkie prawa zastrzeżone</p>
+    </div>
+    
+</body>
+</html>

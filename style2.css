@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    background-color: rgb(40, 40, 40);
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+#topper{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    color: white;
+}
+#szkola{
+    margin: 6px;
+    float: left;
+}
+#kontakt{
+    margin: 6px;
+    float: right;
+}
+#logo{
+    background-color: rgb(108, 24, 24);
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 100%;
+    height: 300px;
+    border-top:  solid rgb(40, 40, 40) 3px;
+    border-bottom:  solid rgb(40, 40, 40) 3px;
+    border-radius: 10px;
+}
+#logotype{
+    background-color: black;
+    float: left;
+    height: 100%;
+    width: 14%;
+    border-right: solid rgb(40, 40, 40) 6px;
+}
+#descr{
+    background-color: rgb(108, 24, 24);
+    height: 100%;
+    width: 85%;
+    float: right;
+}
+.tekst_descr{
+    margin: 10px;
+    color: white;
+}
+#menu{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+.menuoption:hover{
+    background-color: rgb(108, 24, 24);
+    height: 50px;
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px black;
+    box-shadow: 0px 0px 50px rgb(108, 24, 24);
+    border-radius: 5px;
+}
+.menuoption{
+    background-color: black;
+    height: 50px;
+    width: 25%;
+    float: left;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+#block{
+    border-top: solid rgb(40, 40, 40) 6px;
+    width: 100%;
+    height: 1400px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+}
+.tekst{
+    color: white;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 20px;
+    font-size: xx-large;
+    float: left;
+}
+.box{
+    
+    text-align: center;
+    width: 29%;
+    height: 500px;
+    background-color: rgb(40, 40, 40);
+    margin: 40px;
+    border-radius: 20px;
+    float: left;
+    transition: 0.3s ease-out;
+}
+.box:hover{
+    
+    text-align: center;
+    width: 29%;
+    height: 500px;
+    background-color: rgb(40, 40, 40);
+    box-shadow: 0px 0px 40px rgb(108, 24, 24);
+    margin: 40px;
+    border-radius: 20px;
+    float: left;
+    transition: 0.3s ease-in;
+}
+h1{
+    text-shadow: 1px 1px 10px black;
+}
+h5{
+    font-size: x-large;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button1{
+    border: solid 2px rgb(108, 24, 24);
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    transition: 0.3s ease-out;
+}
+.button1:hover{
+    border: solid 2px rgb(108, 24, 24);
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(108, 24, 24);
+    margin-top: 5px;
+    font-size: 20px;
+    transition: 0.3s ease-in;
+}
+p{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+#footer{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-top: 5px;
+}
+ul, li{
+    list-style: none;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+
+table{
+    margin: 10px auto 10px;
+    width: 75%;
+}
+td{
+    width: 33%;
+}

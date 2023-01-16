@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style-testy.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Code-Tech - testy</title>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"
+    integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4="
+    crossorigin="anonymous">
+    </script>
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut(1000);
+          
+        });
+    </script>
+        <script type="text/javascript" src="test_script.js"></script>
+
+</head>
+<body>
+    <div id="topper">
+        <div id="szkola">
+            Zacznijmy porgramować wspólnie!
+        </div>
+        <div id="kontakt">
+            Telefon: 123 456 789 | E-mail: 36365@student.anstar.edu.pl
+        </div>
+    </div>
+    <div id="logo">
+        <div id="logotype">
+            <img src="logo.png" alt="logo" height="100%">
+        </div>
+        <div id="descr">
+            <div class="tekst_descr">
+            <h1>WITAMY W CODE-TECH</h1>
+            <h3>
+                Od wielu lat doskształcamy, szkolimy i inspirujemy młodych oraz doświadczonych programistów. 
+                Jesteśmy jedyną w swoim rodzaju szkołą tworzenia stron internetowych.
+            </h3>
+            <h3>
+                W naszym asortymencie znajdziesz zarówno kursy dla początkujących jak i dla tych bardziej zaawansowanych. 
+                Wystarczy że wybierzesz odpowiednie szkolenie i zanurzysz się w szerokim świecie programisty.
+            </h3>
+            <h3>
+                CZEKAMY NA CIEBIE!
+            </h3>
+            </div>
+        </div>
+    </div>
+    <div id="menu">
+        <a href="index.html">
+            <div class="menuoption">Strona główna</div>
+        </a>
+        <a href="kursy.html">
+            <div class="menuoption">Kursy</div>
+        </a>
+        <a href="testy.html">
+            <div class="menuoption">Testy</div>
+        </a>
+        <a href="self.html">
+            <div class="menuoption">O mnie</div>
+        </a>    
+        
+    </div>
+    <div id="block">
+        <div class="tekst">
+            Sprawdź swoją wiedzę z <b>CSS</b>!
+        </div>
+        <div class="form">
+
+            <ol>
+                <li>Język CSS to język:</li>
+                    <input type="radio" id="p1_a" name="pyt1">A) Skryptowy<br>
+                    <input type="radio" id="p1_b" name="pyt1">B) Znacznikowy<br>
+                    <input type="radio" id="p1_c" name="pyt1">C) Maszynowy<br>
+
+                <br><li>Na co pozwala język CSS?</li>
+                    <input type="radio" id="p2_a" name="pyt2">A) Ingerowanie w strukturę strony internetowej<br>
+                    <input type="radio" id="p2_b" name="pyt2">B) Wykonywanie obliczeń na stronie internetowej<br>
+                    <input type="radio" id="p2_c" name="pyt2">C) Definiowanie wyglądu strony internetowej<br>
+
+                <br><li>Deklarowanie stylu w znacznikach style w pliku html jest stylem:</li>
+                    <input type="radio" id="p3_a" name="pyt3">A) Zewnętrznym<br>
+                    <input type="radio" id="p3_b" name="pyt3">B) Zagnieżdżonym<br>
+                    <input type="radio" id="p3_c" name="pyt3">C) Lokalnym<br>
+
+                <br><li>Jakim znakiem powinna kończyć się linijka kodu w języku CSS?</li>
+                    <input type="radio" id="p4_a" name="pyt4">A) kropka ( . )<br>
+                    <input type="radio" id="p4_b" name="pyt4">B) pingwin (*)><br>
+                    <input type="radio" id="p4_c" name="pyt4">C) średnik ( ; )<br>
+
+                <br><li>Jakie jest rozszerzenie pliku kaskadowych arkuszy styli?</li>
+                    <input type="radio" id="p5_a" name="pyt5">A) .html<br>
+                    <input type="radio" id="p5_b" name="pyt5">B) .css<br>
+                    <input type="radio" id="p5_c" name="pyt5">C) .jpg<br>
+
+                <br><li>Jaki argument pozwala na zmianę marginesów wewnętrznych strony?</li>
+                    <input type="radio" id="p6_a" name="pyt6">A) padding<br>
+                    <input type="radio" id="p6_b" name="pyt6">B) margin<br>
+                    <input type="radio" id="p6_c" name="pyt6">C) border<br>
+
+                <br><li>Odniesieniem się do id elementu jest znak:</li>
+                    <input type="radio" id="p7_a" name="pyt7">A) hasztag - #<br>
+                    <input type="radio" id="p7_b" name="pyt7">B) kropka - .<br>
+                    <input type="radio" id="p7_c" name="pyt7">C) dwukropek - :<br>
+
+                <br><li>Usunięcie dekoracji z tesktu np. podkreślenia z linku, jest mozliwe dzieji modyfikatorowi: </li>
+                    <input type="radio" id="p8_a" name="pyt8">A) text-decoration: none;<br>
+                    <input type="radio" id="p8_b" name="pyt8">B) text-style: none;<br>
+                    <input type="radio" id="p8_c" name="pyt8">C) style-decoration: none;<br>
+
+                <br><li>Zadeklaruj ramkę o grubości 1px, ciągłej linii oraz kolorze czarnym (w jednej linijce kodu).</li>
+                    Twoja odpowiedź:<br>
+                    <input type="text" id="p9"><br>
+            
+                <br><li>Ustaw kolor tła na hotpink.</li>
+                    Twoja odpowiedź:<br>
+                    <input type="text" id="p10"><br>
+            </ol>
+            <button type="submit" id="sprawdz" onclick="testcss()">Sprawdź odopowiedzi</button>
+            <button type="reset" id="reset">Zacznij od nowa</button>
+
+        </div>
+        <div class="akapit">
+            Zdobyto <span id="test_result"></span> /10 punktów!
+        </div>
+    
+    </div>
+    <div id="footer">
+        <p>&copy COPYRIGHT, wszelkie prawa zastrzeżone</p>
+    </div>
+    
+</body>
+</html>

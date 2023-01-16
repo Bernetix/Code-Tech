@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+   <movie>
+       <title>Igrzyska Śmierci: Kosogłos</title>
+       <description>Kontuacja Igrzysk śmierci</description>
+       <type>Drama</type>
+       <rank>9/10</rank>
+       <relase>19 listopada 2014</relase>
+   </movie>
+   <movie>
+       <title>Czarownica. Bajka ludowa z Nowej Anglii</title>
+       <description>Film nagrany na podstawie ludowych wierzeń na temat czarownic</description>
+       <type>Horror, Document</type>
+       <rank>7,5/10</rank>
+       <relase>2015</relase>
+   </movie> 
+</movies>

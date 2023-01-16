@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style-testy.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Code-Tech - testy</title>
+    <script type="text/javascript" src="test_script.js"></script>
+
+</head>
+<body>
+    <div id="topper">
+        <div id="szkola">
+            Zacznijmy porgramować wspólnie!
+        </div>
+        <div id="kontakt">
+            Telefon: 123 456 789 | E-mail: 36365@student.anstar.edu.pl
+        </div>
+    </div>
+    <div id="logo">
+        <div id="logotype">
+            <img src="logo.png" alt="logo" height="100%">
+        </div>
+        <div id="descr">
+            <div class="tekst_descr">
+            <h1>WITAMY W CODE-TECH</h1>
+            <h3>
+                Od wielu lat doskształcamy, szkolimy i inspirujemy młodych oraz doświadczonych programistów. 
+                Jesteśmy jedyną w swoim rodzaju szkołą tworzenia stron internetowych.
+            </h3>
+            <h3>
+                W naszym asortymencie znajdziesz zarówno kursy dla początkujących jak i dla tych bardziej zaawansowanych. 
+                Wystarczy że wybierzesz odpowiednie szkolenie i zanurzysz się w szerokim świecie programisty.
+            </h3>
+            <h3>
+                CZEKAMY NA CIEBIE!
+            </h3>
+            </div>
+        </div>
+    </div>
+    <div id="menu">
+        <a href="index.html">
+            <div class="menuoption">Strona główna</div>
+        </a>
+        <a href="kursy.html">
+            <div class="menuoption">Kursy</div>
+        </a>
+        <a href="testy.html">
+            <div class="menuoption">Testy</div>
+        </a>
+        <a href="self.html">
+            <div class="menuoption">O mnie</div>
+        </a>    
+        
+    </div>
+    <div id="block">
+        <div class="tekst">
+            Sprawdź swoją wiedzę z <b>XML</b>!
+        </div>
+        <div class="form">
+
+            <ol>
+                <li>Jakim językiem jest język XML?</li>
+                    <input type="radio" id="p1_a" name="pyt1">A) Skryptowym<br>
+                    <input type="radio" id="p1_b" name="pyt1">B) Tekstowym<br>
+                    <input type="radio" id="p1_c" name="pyt1">C) Znacznikowym<br>
+
+                <br><li>Jak wygląda prolog w pliku XML?</li>
+                    <input type="radio" id="p2_a" name="pyt2">A) &lt?xml version="1.1" encoding="UTF-8"?&gt<br>
+                    <input type="radio" id="p2_b" name="pyt2">B) &lt?xml version="1.0" encoding="UTF-9"?&gt<br>
+                    <input type="radio" id="p2_c" name="pyt2">C) &lt?xml version="5.0" encoding="UTF-8"?&gt<br>
+
+                <br><li>Element główny w języku XML: </li>
+                    <input type="radio" id="p3_a" name="pyt3">A) Moze pojawić się kilkukrotnie<br>
+                    <input type="radio" id="p3_b" name="pyt3">B) Pojawia się tylko i wyłącznie raz<br>
+                    <input type="radio" id="p3_c" name="pyt3">C) Nie pojawia się nigdy<br>
+
+                <br><li>Jakie jest rozszerzenie pliku napisanego w języku XML?</li>
+                    <input type="radio" id="p4_a" name="pyt4">A) .xml<br>
+                    <input type="radio" id="p4_b" name="pyt4">B) .md<br>
+                    <input type="radio" id="p4_c" name="pyt4">C) .html<br>
+
+                <br><li>Jakie zastosowanie ma XML?</li>
+                    <input type="radio" id="p5_a" name="pyt5">A) Modyfikuje stronę internetową<br>
+                    <input type="radio" id="p5_b" name="pyt5">B) Pozwala na działanie skryptów<br>
+                    <input type="radio" id="p5_c" name="pyt5">C) Prezentowanie danych w sposób strukturalizowany<br>
+
+            </ol>
+            <button type="submit" id="sprawdz" onclick="testxml()">Sprawdź odopowiedzi</button>
+            <button type="reset" id="reset">Zacznij od nowa</button>
+
+        </div>
+        <div class="akapit">
+            Zdobyto <span id="test_result"></span> /5 punktów!
+        </div>
+    </div>
+    <div id="footer">
+        <p>&copy COPYRIGHT, wszelkie prawa zastrzeżone</p>
+    </div>
+    
+</body>
+</html>
